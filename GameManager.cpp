@@ -1,4 +1,6 @@
-#include "/opt/homebrew/include/raylib.h"
+extern "C" {
+   #include <raylib.h>
+}
 #include "GameManager.hpp"
 #include <string>
 Color ObsidianBlack = { 10, 10, 15, 255 };
