@@ -1,6 +1,6 @@
 #pragma once
 extern "C" {
-    #include "/opt/homebrew/include/raylib.h"
+   #include <raylib.h> 
 }
 class Board{
     private:
