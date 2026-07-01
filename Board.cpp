@@ -1,4 +1,6 @@
-#include "/opt/homebrew/include/raylib.h"
+extern "C" {
+   #include <raylib.h> 
+}
 #include "Board.hpp"
 Board::Board(){
     reset_board();
