@@ -25,6 +25,6 @@ g++ -std=c++17 *.cpp -I(brew --prefix)/include -L(brew --prefix)/lib -lraylib -o
 
 ## 📂 Project Structure
 * `main.cpp` - Entry point.
-* `GameManager` - Controls game states, window loops.s
+* `GameManager` - Controls game states, window loops.
 * `Board` - Handles game grid calculations and Raylib rendering.
 * `Player` - Simple class tracking player names and board marks ('X'/'O').
